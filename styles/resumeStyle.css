@@ -1,0 +1,58 @@
+/*************************************************
+*Description: Style sheet for the Resume page
+*Author:      Ayomide Jimoh
+*************************************************/
+
+/*
+CSS Style for print
+@import "printStyle.css" print;
+
+CSS Style for mobile
+@import "mobileStyle.css" screen and (max-width: 768px);
+*/
+
+/*
+(top&right&bottom&left)
+(top&bottom left&right)
+(top right&left bottom)
+(top right bottom left)
+*/
+
+
+#resumeHead {
+    text-align: center;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.italizedText {
+    font-style: italic;
+}
+
+body {
+    background-color: #00ff00;
+}
+
+main {
+    /*width: 95%;
+    display: contents;*/
+    width: 100%;
+}
+
+.leftSide {
+    float: left;
+}
+
+.middleSide {
+    float: none;
+}
+
+.rightSide {
+    float: right;
+}
+
+footer {
+    clear: both;
+}

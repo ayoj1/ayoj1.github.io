@@ -1,0 +1,65 @@
+/*******************************************************
+*Description: Style sheet for the contact page and form
+*Author:      Ayomide Jimoh
+*******************************************************/
+
+body {
+    display:flexbox;
+}
+
+#myInfoLeft {
+	width: 30%;/*20% or 15%;*/
+	float: left;
+}
+
+main {
+    float: right;
+    width: 65.5%;
+}
+
+.contactInfo {
+    padding: 0 1em;
+    /*font-size: larger;*/
+    font-weight: 600;
+    line-height: 45px;
+}
+
+#contactTitle {
+    padding: 0 1em;
+    text-decoration: underline;
+    font-size: larger;
+}
+
+#contactMeForm {
+    padding: 5px;
+     /*position of the form*/
+     position: relative;
+     top: 0px;
+     right: 0px;
+     bottom: 0px;
+     left: 200px;
+}
+
+form {
+	border: 3px double #1b4e7f;
+	width: 55%;
+	background-color: #f0c6a3;
+    padding: 10px;
+}
+
+.labelOptions {
+    color: navy;
+    float: left;
+    width: 8em;
+    font-weight: bold;
+    text-align: right;
+}
+
+input, textarea {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+
+footer {
+    clear: right;
+}

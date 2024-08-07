@@ -1,0 +1,58 @@
+/*************************************************
+*Description: Style sheet for the Project 2 (CMIS 350) page
+*Author:      Ayomide Jimoh
+*************************************************/
+/* Adjust the styles for the aside*/
+aside {
+	width: 47.5%; /*47.5%*/ /*20% or 15%;*/
+	float: left;
+	margin-left: 5px;
+}
+
+/* Adjust the styles for main*/
+main {
+	width: 37.5%; /*37.5%*/
+	float: right;
+	/*padding-bottom: 50px;*/
+}
+
+div {
+	padding-bottom: 7px;
+}
+
+.subHeading { 
+    font-weight: bold;
+    text-decoration: underline;
+} 
+
+/*Adjust the styles for table*/
+table, td, th {
+	border: 3px outset #1fab00;
+}
+
+table {
+	border-collapse: collapse; /*default is "separate"*/
+	white-space:normal; /*text-wrap in table*/
+}
+
+caption {
+	font-family: Tahoma, Palatino, Roboto, Lato;
+	font-weight: bold;
+	font-size: 1.9em;
+}
+
+thead, tfoot {
+	background-color: #aa99ee;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #f0f000;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #f0f999;
+}
+
+footer {
+    clear: right;
+}

@@ -1,0 +1,92 @@
+/*************************************************
+*Description: Primary style sheet for the website
+*Author:      Ayomide Jimoh
+*************************************************/
+
+/*
+CSS Style for print
+@import "printStyle.css" print;
+
+CSS Style for mobile
+@import "mobileStyle.css" screen and (max-width: 768px);
+*/
+
+/*
+(top&right&bottom&left)
+(top&bottom left&right)
+(top right&left bottom)
+(top right bottom left)
+*/
+
+/* Adjust the styles for the html*/ 
+html { 
+    background-image: linear-gradient(to right, #808999, #000066); /*Linear Gradient displays smooth transitions between 2 or more colors. default direction is "up to down"*/
+	/*background-image: url("../images/gif.jpeg");
+	background-repeat: repeat;*/
+}
+
+/** {margin: 0; padding: 0;}*/
+
+/* Adjust the styles for the header*/ 
+header { 
+    font-family: Verdana;
+    font-size: 180%;
+    font-style: italic;
+    font-weight: 900; /*normal=400 bold=700 Min=100 Max=900*/
+    text-align: center;
+    color: #ae35fa;
+	background-color: #ffff00;
+	text-shadow: -6px -2px 4px #aaff11; /*adds shadow behind text*/
+	padding-bottom: 1.5px;
+	border-bottom: 3px solid #000000;
+}
+
+header h1 {
+	margin: 0; /*removes space before and after "web tech hub"*/
+}
+
+/* Adjust the styles for the headings*/ 
+hl { 
+    font-family: Verdana;
+    font-size: 180%;
+    font-style: italic;
+    font-weight: 900; /*normal=400 bold=700 Min=100 Max=900*/
+} 
+
+/* Adjust the styles for body*/
+body { 
+    font-family: Arial, Sans-Serif, Times New Roman, Helvetica;
+    font-size: 100%; /* using this set it to 16px*/
+    font-style: normal; /*default. other values are italic and oblique*/
+	background-color: #ae5462;
+	
+	border: 10px solid red;
+	border-radius: 12.5px; /*curve the 4 border corners/edges*/
+	box-shadow: -10px 8px 8px 10px #9915af;
+	
+	width: 95%;
+
+	margin: 10px auto; /*1em is the same as 16px margin since 100% is used in the font-size*/ /*automatically adjust left and right 
+	margin (i.e horizontally) based on the device viewport while the top and bottom remains 1em. auto works only on horizontal direction*/
+}
+
+/* Adjust the styles for main*/
+main {
+	background-color: #00ff00;
+}
+
+/* Adjust the styles for link*/
+a { font-weight: bold; } 
+a:link { color: #931420; } 
+a:visited { color: #f2972e; } 
+a:hover, a:focus { color: #000080; font-size: 120%; font-weight: 900; }
+
+/* Adjust the styles for the footer */
+footer { 
+	border-top: 3px solid #000000;
+	color: #ae35fa;
+	background-color: #c0a090;
+}
+footer div { /* style all div elements in footer */
+	font-size: 20px;
+	text-align: center; }

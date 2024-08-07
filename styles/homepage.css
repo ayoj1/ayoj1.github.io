@@ -1,0 +1,76 @@
+/*************************************************
+*Description: Style sheet for the home page
+*Author:      Ayomide Jimoh
+*************************************************/
+
+/*
+CSS Style for print
+@import "printStyle.css" print;
+
+CSS Style for mobile
+@import "mobileStyle.css" screen and (max-width: 768px);
+*/
+
+/*
+(top&right&bottom&left)
+(top&bottom left&right)
+(top right&left bottom)
+(top right bottom left)
+*/
+
+/* Adjust the styles for body*/
+body { 
+	display: block;
+}
+
+/* Adjust the styles for the aside*/
+aside {
+	width: 33%;/*20% or 15%;*/
+	float: left;
+	margin-left: 5px;
+	/*height: 95vh;*/
+	/*float: left;*/
+	/*border-right: 2px solid #a1f631;*/
+	/*margin: 5px;
+	padding: 5px;*/
+	/*margin-top;*/
+}
+
+/* Adjust the styles for the aside with the id, leftSideImage*/
+#leftSideImage {
+	width: 10%;
+	float: left;
+}
+
+/* Adjust the styles for main*/
+main {
+	width: 42%;
+	float: right;
+}
+
+/*Adjust the styles for list*/
+ul.specialListStyle {
+	list-style-type: none; /*prevents default bullet (from ul tag) from showing*/
+	/*padding: 0;
+	margin: 0;*/
+}
+li.special-list-style {
+	/*list-style-type: square;*/
+	background: url("../images/diamond-list1.png") no-repeat left top;
+	background-size: 15px;
+	height: 20px;
+	padding: 3px 20px;
+}
+
+/* Adjust the styles for main*/
+#mainContent {
+	width: 33.5%;
+	padding-left: 5px;
+	padding-right: 25px;
+	margin-right: 10px;
+}
+
+/* Adjust the styles for the footer */
+footer { 
+	clear: both;
+}
